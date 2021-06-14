@@ -1,0 +1,206 @@
+.ManagementPage{
+    background-color: #F5F8FC;
+    width: 74vw;
+    padding: 40px;
+    padding-top: 25px;
+    min-height: 90vh;
+    margin-left: 20%;
+
+
+}
+
+.MainContainer{
+    background-color: white;
+    max-width: 74.5vw;
+    min-height: 85%;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.ManageText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 30%;
+    font-weight: bold;
+    color: #8A8FA1;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+.ManageTexts:hover {
+    color: #6F8AE8;
+}
+
+.ContainerHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* List Container UI */
+
+.ListContainer{
+    position: relative;
+    width: 100%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 10px;
+    
+
+
+}
+
+.Header{
+    margin-bottom: 12px;
+
+}
+
+.AddButton{
+    width: 10%;
+    height: 30px;
+    position: relative;
+    background-color: #6F8AE8;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    cursor: pointer;
+
+}
+
+.ListImages{
+    position: relative;
+    min-width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    
+}
+.ListLinks{
+    background-color: #F5F6FA;
+    position: relative;
+    width: 100%;
+    height: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+    padding-left: 12px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.LinkIcon{
+    margin-right: 10px;
+
+
+}
+
+.LinkText{
+    margin-bottom: 18px;
+    overflow: hidden;
+    color: #8A8FA1;
+}
+
+.IconContainer{
+    height: 45%;
+    display: flex; 
+    flex-direction: row;
+    padding-right: 10px;
+    /* margin-bottom: 10px; */
+
+}
+
+.trash{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pencil{
+    cursor: pointer;
+
+
+}
+
+
+/* ProductContainer UI */
+.ListTable{
+    width: 100%;
+    height: 20px;
+    background-color: #F5F6FA;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: #6F8AE8;
+    font-weight: bold;
+    
+
+}
+
+.ProductList{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+
+.ProductImages{
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.ProductDes{
+    margin-left: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+
+
+}
+.ProductText{
+    flex: 1;
+    font-size: 14px;
+    color: #8A8FA1;
+    display: block;
+    font-weight: bold;
+}
+
+
+
+
+.IconWrap{
+    height: 45%;
+    display: flex; 
+    flex-direction: row;
+    /* padding-right: 10px;
+    margin-bottom: 15px; */
+}
